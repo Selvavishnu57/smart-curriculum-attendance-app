@@ -1,0 +1,196 @@
+Build a complete, modern, responsive web application called "Smart Curriculum Activity & Attendance App".
+
+Technology:
+- React + TypeScript
+- Tailwind CSS
+- Node.js + Express
+- SQLite (or PostgreSQL if available)
+- Modern dashboard UI
+- Mobile and desktop responsive
+
+Project Overview:
+The application is designed for colleges to automate attendance, manage students, display the latest Anna University syllabus, and help students use their free periods productively.
+
+Main Features
+
+1. Authentication
+- Faculty Login
+- Student Login
+- Admin Login
+- Secure password authentication
+- Role-based dashboard
+
+2. Dashboard
+- Total Students
+- Today's Attendance
+- Attendance Percentage
+- Subjects
+- Notifications
+- Recent Activities
+- Quick Actions
+
+3. Student Management
+- Add Student
+- Edit Student
+- Delete Student
+- Search Student
+- Filter by Department, Year and Section
+- Student Profile with
+  - Photo
+  - Name
+  - Register Number
+  - Department
+  - Year
+  - Section
+  - Email
+  - Phone Number
+
+Support at least 40 students per class.
+
+4. Attendance System
+Support multiple attendance methods:
+- Face Recognition
+- QR Code
+- Manual Attendance
+
+Features:
+- Present
+- Absent
+- Late
+- Date and Time
+- Attendance History
+- Attendance Percentage
+- Monthly Reports
+
+5. Face Recognition
+Use browser camera.
+
+Requirements:
+- Register each student's face.
+- Detect only real human faces.
+- Prevent fake photo attendance if possible.
+- Automatically mark attendance after successful recognition.
+- Show success message.
+
+6. QR Attendance
+Generate QR code for each class.
+Students scan QR.
+Attendance recorded automatically.
+
+7. Timetable
+Faculty can create timetable.
+Students can view today's timetable.
+Highlight current class.
+
+8. Anna University Curriculum
+Include latest Anna University 2026 syllabus.
+
+Display
+- Department
+- Semester
+- Subject Code
+- Subject Name
+- Credits
+
+Allow admin to
+- Add Subject
+- Update Subject
+- Delete Subject
+
+9. Activity Recommendation
+When there is no class,
+show personalized activities like
+- Coding Practice
+- Aptitude Questions
+- English Practice
+- Resume Building
+- Interview Preparation
+- Mini Projects
+- AI Learning
+- Communication Skills
+
+10. Attendance Analytics
+Charts for
+- Daily Attendance
+- Weekly Attendance
+- Monthly Attendance
+- Department Comparison
+
+11. Reports
+Export attendance as
+- PDF
+- Excel
+
+12. Notifications
+Notify students about
+- Low Attendance
+- New Activities
+- Timetable Changes
+- Assignment Reminder
+
+13. Settings
+- Light Mode
+- Dark Mode
+- Change Password
+- Profile Settings
+
+14. Admin Panel
+Manage
+- Students
+- Faculty
+- Subjects
+- Departments
+- Timetable
+- Attendance
+- Reports
+
+15. UI Requirements
+Use a professional college management dashboard.
+
+Theme:
+- Blue
+- White
+- Dark Mode
+
+Include
+- Sidebar
+- Navbar
+- Cards
+- Charts
+- Tables
+- Icons
+- Animations
+
+16. Database
+Create all required database tables automatically.
+
+17. Demo Data
+Generate demo data including:
+- 40 Students
+- Faculty Accounts
+- Subjects
+- Timetable
+- Attendance Records
+
+18. Code Quality
+- Clean code
+- Well organized folders
+- Comments
+- Responsive
+- Production-ready
+
+19. Extra Features
+- Search everything
+- Filter records
+- Pagination
+- Dashboard statistics
+- Recent activity log
+- Backup and Restore
+- Import students from Excel
+- Export reports
+- Print attendance
+- College logo upload
+- Student profile photo upload
+
+20. Final Requirement
+The application should be fully functional, responsive, visually attractive, and ready for demonstration in Smart India Hackathon (SIH) and college project presentations.

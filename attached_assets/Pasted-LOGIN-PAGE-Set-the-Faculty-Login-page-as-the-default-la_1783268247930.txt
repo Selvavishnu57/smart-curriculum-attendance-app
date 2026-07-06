@@ -1,0 +1,212 @@
+LOGIN PAGE
+
+Set the Faculty Login page as the default landing page when the application opens.
+
+Navigation Order:
+1. Faculty Login (Default)
+2. Student Login
+3. Admin Login
+
+Create three separate login pages:
+
+• Faculty Login (Default First Page)
+• Student Login (Second Page)
+• Admin Login (Third Page)
+
+When the application starts:
+- Automatically open the Faculty Login page.
+- Users can switch between Faculty Login, Student Login, and Admin Login using tabs or buttons.
+- If the user is not logged in, always redirect them to the Faculty Login page.
+
+FACULTY LOGIN
+
+Fields:
+- Email or Faculty ID
+- Password
+- Remember Me
+- Forgot Password
+- Login Button
+- Register as Faculty Button
+
+After successful login:
+- Redirect to Faculty Dashboard.
+
+STUDENT LOGIN
+
+Fields:
+- Email or Register Number
+- Password
+- Remember Me
+- Forgot Password
+- Login Button
+- Register as Student Button
+
+After successful login:
+- Redirect to Student Dashboard.
+
+ADMIN LOGIN
+
+Fields:
+- Username
+- Password
+- Login Button
+
+Default Admin Account
+
+Username:
+admin
+
+Password:
+Admin@123
+
+After successful login:
+- Redirect to Admin Dashboard.
+
+REGISTRATION
+
+Create separate registration pages for Faculty and Students.
+
+Registration should NOT require admin approval.
+
+After successful registration:
+- Save all information in the database.
+- Users can log in immediately.
+- Admin can view all registered users.
+
+STUDENT REGISTRATION
+
+Fields:
+- Full Name
+- Register Number
+- Email
+- Phone Number
+- Password
+- Confirm Password
+- Department
+- Year
+- Section
+- College Name (Dropdown)
+- Profile Photo (Optional)
+
+FACULTY REGISTRATION
+
+Fields:
+- Full Name
+- Faculty ID
+- Email
+- Phone Number
+- Password
+- Confirm Password
+- Department
+- Designation
+- College Name (Dropdown)
+- Profile Photo (Optional)
+
+COLLEGE NAME DROPDOWN
+
+Include the following options:
+
+- M. Kumarasamy College of Engineering
+- VSB Engineering College
+- Chettinad College of Engineering and Technology
+- N.S.N. College of Engineering and Technology
+- Arulmurugan College of Engineering
+- Cheran College of Engineering
+- VKS College of Engineering and Technology
+- Karur College of Engineering
+- Valluvar College of Science And Management
+- Sasurie College of Engineering
+- Jai Shriram Engineering College
+- Builders Engineering College
+- Angel College of Engineering and Technology
+- Jairupaa College of Engineering
+- Sri Ramanathan Engineering College
+- Cheran College of Technology
+- Ambal Professional Group of Institutions
+- SCAD Institute of Technology
+- Dr. Nallini Institute of Engineering and Technology
+- KIT - Kangeyam Institute of Technology
+- Professional Educational Trusts Group of Institutions Faculty of Engineering
+- VSB College of Engineering Technical Campus
+- Other
+
+If "Other" is selected:
+- Display a text field to enter the college name.
+
+ADMIN DASHBOARD
+
+Admin can:
+- View Total Students
+- View Total Faculty
+- View Attendance Statistics
+- Manage Students
+- Manage Faculty
+- Manage Departments
+- Manage Subjects
+- Manage Colleges
+- Search Users
+- Filter Users
+- Reset User Passwords
+- View User Profiles
+- Delete Users
+- Edit Users
+
+FACULTY DASHBOARD
+
+Display:
+- Today's Classes
+- Timetable
+- Student List
+- Attendance Management
+- Face Recognition Attendance
+- QR Attendance
+- Reports
+- Notifications
+- Subjects
+
+STUDENT DASHBOARD
+
+Display:
+- Student Profile
+- Attendance Percentage
+- Today's Timetable
+- Subjects
+- Curriculum Activities
+- Notifications
+- Attendance History
+- Academic Progress
+
+VALIDATION
+
+- Prevent duplicate Register Numbers.
+- Prevent duplicate Faculty IDs.
+- Prevent duplicate Email IDs.
+- Password must contain at least 8 characters.
+- Show validation messages for incorrect input.
+
+UI REQUIREMENTS
+
+- Modern professional college management design.
+- Faculty Login opens by default.
+- Student Login is the second option.
+- Admin Login is the third option.
+- Responsive for mobile, tablet, and desktop.
+- Support both Light Mode and Dark Mode.
+- Smooth animations.
+- College logo placeholder.
+- Professional icons and dashboard cards.
+
+DATABASE
+
+Automatically create database tables for:
+- Admin
+- Faculty
+- Students
+- Colleges
+- Departments
+- Subjects
+- Timetable
+- Attendance
+- Notifications
+
+The authentication system should be fully functional so that Faculty and Students can register, log in immediately after registration, and the Admin can manage all registered users from the Admin Dashboard.

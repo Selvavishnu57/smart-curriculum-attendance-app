@@ -1,0 +1,135 @@
+Update the Faculty Registration, Student Registration, Admin Dashboard, and database with the following improvements.
+
+DEPARTMENT DROPDOWN
+
+Replace the Department field with a dropdown containing these options:
+
+- Agricultural Engineering
+- Artificial Intelligence and Data Science
+- Artificial Intelligence and Machine Learning
+- Biomedical Engineering
+- Biotechnology
+- Chemical Engineering
+- Civil Engineering
+- Computer and Communication Engineering
+- Computer Science and Business Systems
+- Computer Science and Engineering
+- Electrical and Electronics Engineering
+- Electronics and Communication Engineering
+- Information Technology
+- Mechanical Engineering
+- VLSI and Embedded Systems (PG Only)
+- Applied Electronics (PG Only)
+- Power System Engineering (PG Only)
+- Other
+
+If "Other" is selected, display a textbox:
+"Enter Department Name"
+
+Apply this department dropdown to:
+- Student Registration
+- Faculty Registration
+- Student Profile
+- Faculty Profile
+- Admin Add/Edit Student
+- Admin Add/Edit Faculty
+
+CLASS MANAGEMENT
+
+Each Department should support multiple classes.
+
+Each class can contain up to 40 students.
+
+Add these fields:
+
+- Academic Year
+- Semester
+- Section (A, B, C, D...)
+- Batch
+- Class Advisor (Faculty)
+
+Example:
+
+Department:
+Computer Science and Engineering
+
+Year:
+II
+
+Semester:
+IV
+
+Section:
+A
+
+Maximum Students:
+40
+
+ATTENDANCE
+
+Attendance should be maintained separately for every:
+
+- Department
+- Year
+- Semester
+- Section
+- Subject
+
+Faculty should only see the students assigned to their department, year, semester, section, and subject.
+
+ADMIN FEATURES
+
+Admin can:
+
+- Create Departments
+- Edit Departments
+- Delete Departments
+- Create Sections
+- Assign Faculty to Sections
+- View number of students in each class
+- Prevent classes from exceeding 40 students
+- Transfer students between sections
+- Search students by Department, Year, Semester, or Section
+
+VALIDATION
+
+Prevent:
+
+- More than 40 students in one class/section.
+- Duplicate Register Numbers.
+- Duplicate Faculty IDs.
+- Duplicate Email IDs.
+- Empty required fields.
+- Invalid phone numbers.
+- Weak passwords.
+
+Show user-friendly error messages.
+
+DATABASE
+
+Update the database to include:
+
+Departments
+Sections
+Academic Years
+Semesters
+Faculty Assignments
+Student-Class Mapping
+Attendance Records
+
+BUG FIXES
+
+Review the entire project and fix any existing issues, including:
+- Login problems
+- Registration errors
+- Database errors
+- Attendance not saving
+- Dashboard loading issues
+- Face Recognition issues
+- QR Attendance issues
+- Navigation issues
+- Dark Mode/Light Mode issues
+- Responsive layout issues
+- Validation issues
+
+Optimize the application for performance and ensure there are no runtime or console errors. The final application should be stable, fully functional, responsive, and ready for demonstration.

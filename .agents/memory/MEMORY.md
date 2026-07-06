@@ -1,0 +1,2 @@
+- [API client auth token wiring](auth-token-wiring.md) — `setAuthTokenGetter` must be called at module level in auth.tsx before any React Query hooks run, or all authenticated calls return 401.
+- [DB package rebuild on schema change](db-rebuild-on-schema-change.md) — lib/db uses composite TS project references; must run `tsc -p tsconfig.json` in lib/db after any schema edit or api-server gets stale "no exported member" errors.
